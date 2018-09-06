@@ -13,7 +13,8 @@ requirements:
     build:
         - cmake
         - toolchain
-        - gcc-7             # [linux]
+        - gcc_linux-64
+        - gxx_linux-64
         - setuptools
         - jmm_cpplibs
         - pybind11
