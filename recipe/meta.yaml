@@ -1,10 +1,10 @@
 package:
     name: hfm
-    version: 0.1.2
+    version: 0.1.3
 source:
-    fn: hfm_0.1.2.tar.gz
-    sha256: 0f760ffef2b882532a4b8bef64769297d6d199c01290ead5ab7e737865a625d2
-    url: https://github.com/Mirebeau/HamiltonFastMarching/archive/v0.1.2.tar.gz
+    fn: hfm_0.1.3.tar.gz
+    sha256: bd6746b267d2f5ce13b551ac7b61792389930dddb02899446a038fca5e6106a7
+    url: https://github.com/Mirebeau/HamiltonFastMarching/archive/v0.1.3.tar.gz
 build:
     number: '0'
     skip: true  # [win and py<35]
