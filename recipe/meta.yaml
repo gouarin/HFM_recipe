@@ -13,6 +13,7 @@ build:
 
 requirements:
     build:
+        - vc 14        # [win and py36]
         - cmake
         - toolchain
         - gcc_linux-64 # [linux]
@@ -22,6 +23,7 @@ requirements:
         - pybind11
         - numpy
     run:
+        - vc 14   # [win and py36]
         - pybind11
         - numpy
 
