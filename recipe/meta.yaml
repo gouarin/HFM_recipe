@@ -13,7 +13,7 @@ build:
 
 requirements:
     build:
-        - python=3.6
+        - python 3.6
         - cmake
         - toolchain
         - gcc_linux-64 # [linux]
@@ -23,7 +23,7 @@ requirements:
         - pybind11
         - numpy
     run:
-        - python=3.6
+        - python 3.6
         - pybind11
         - numpy
 
