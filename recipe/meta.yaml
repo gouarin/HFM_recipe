@@ -6,14 +6,11 @@ source:
     sha256: bd6746b267d2f5ce13b551ac7b61792389930dddb02899446a038fca5e6106a7
     url: https://github.com/Mirebeau/HamiltonFastMarching/archive/v0.1.3.tar.gz
 build:
-  features:
-    - vc14    # [win]
   number: '0'
   skip: true  # [win and py<35]
 
 requirements:
     build:
-        - vc 14        # [win and py36]
         - cmake
         - toolchain
         - gcc_linux-64 # [linux]
@@ -23,7 +20,6 @@ requirements:
         - pybind11
         - numpy
     run:
-        - vc 14   # [win and py36]
         - pybind11
         - numpy
 
